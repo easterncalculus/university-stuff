@@ -2,3 +2,38 @@ Digital Transformation
 
 Group Project - industrial IT solution (commercial appplication)
 Estate Management wrt =new= CSB
+Involvement with InventMAP & other Industry organisations
+AGILE
+
+
+Due week 4:
+'Research & Innovation Plan'
+-look at current data on CSB
+-new sensors/data sources
+-'how is this building being used'
+-develop solution based on available & possible data of the building
+-aim to improve the use of the building - to staff, to researchers, to students
+"Maximise Student Experience"
+(IoT applications?)
+
+
+Due week 6:
+-design document
+    -user stories
+    -15 pages
+    -appendix individual contribution
+-what features are required
+-combination of individual ideas as a group
+
+
+Assessment:
+-final solution
+-pitch
+
+
+Tools used:
+-EEECS gitlab
+-EasyBacklog
+-Trello (argh)
+-Slack (yee)
+-"others as you feel fit"
