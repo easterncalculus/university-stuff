@@ -34,12 +34,34 @@ Assessment:
 Tools used:
 -EEECS gitlab
 -EasyBacklog
--Trello (argh)
+-Trello
 -Slack (yee)
 -"others as you feel fit"
+--some form of kanban board
+
+No restriction on programming language used or implementation
+(example given was mobile vs desktop app)
+RESTful APIs?
 
 
 
 Questions:
--how many in group project group?
--who is talking about blockchain tomorrow
+-how many in group project group? 4-5 (Possibility for Me ~ Paul ~ Jonny ~ Niamh ~ Fiona?)
+-who is talking about blockchain tomorrow - Fergal from RBL
+
+
+
+
+
+sensor data examples:
+-keyfobs
+-electricity/carbon usage
+-class lists
+-attendance
+-timetables
+-events
+-project booking  (QOL)
+-weather feed
+-access data
+-wifi login
+-desktop pc login
