@@ -1,0 +1,19 @@
+Kelvin - multiprocessor computer that we can use
+Discussion Forum - ask questions and check answers there
+
+Assignment 0:
+Reading assignment slide 41 
+QOL / Resources / Assignment 0
+read some papers
+see screenshot
+
+Assignment 1 - due later (OCT 25) but should start now
+
+
+reading from tutorial 1:
+
+UNIX guide
+http://www.ee.surrey.ac.uk/Teaching/Unix
+
+C tutorial
+https://learning.qol.qub.ac.uk/2181/CSC/4005-AUT-QUB/Resources/Tutorials/Tutorial-1/Tutorial%201c%20-%20C%20Programming%20Tutorial.html
