@@ -1,1 +1,48 @@
-test
+Final Year Research and Development Project
+
+-both research component AND code
+
+1) Working project (software) to gitlab
+2) Research article (dissertation-like / max 15 pages)
+3) Software development report (20% - brief)
+
+schedule:
+-shortlist of 5 projects due this sunday (30th september)
+-preliminary research report due 23rd november
+-research article and software development report due 29th april
+-project showcase due 1st may 2019
+-presenation slides + demo (TBA)
+
+regular meetings with supervisor (and record meeting summaries/minutes, with signature in final doc)
+avoid plagarism & referencing wikipedia in report 
+
+Thoughts on my own research project:
+-Blockchain related 
+-Involve RBL (RESTful APIs, Node.js, multichain, blockcypher, docker)
+-Cryptocurrency betting pool plugin for games
+
+
+Existing research projects I am interested in:
+
+1 - A BitCoin Attack For Profit - Hans Vandierendonck
+    to do with hashing algorithms
+    attempt to mine a block 'quickly'
+    at first glance seems impossible?
+
+2 - De-Anonymising Bitcoin: Identifying Users of Cryptocurrencies - Hans Vandierendonck
+    claim that multiple addresses within a single wallet can be linked
+        possible through use of an obvious change address?
+    mixer exists that can help obsfucate this link
+    project is focused on breaking this annoymity in a probabilistic manner using algorithms
+    >This project involves the implementation of a graph analytics algorithm and requires 
+     familiarity with probability theory, cryptocurrencies and algorithms.
+
+3 - Meta Learning for Deep Reinforcement Learning - Vien Ngo
+    Training a neural network to be good at learning. Very interesting project, but
+     not related to any fields I have experiece with
+
+4 - Keyword/phrase speech recognition without requiring noise training - Ji Ming
+
+5 - - 
+
+
