@@ -1,0 +1,39 @@
+Thoughts on a unique FYP Research and Development task:
+
+-involve blockchain
+-restful APIs
+-preferably in Node
+-bonus if I can incorporate integration with
+    public blockchain libraries (blockcypher)
+    private blockchain libraries (multichain, hyperledger)
+
+
+
+
+Developing a cryptocurrency betting pool plugin for gaming/esports:
+    -plugin can be added to any online game
+    -each player prepares externally their "ante"
+    -the plugin will generate an address and display it to all players
+    -each player sends crypto to that address (and specifies a return address; default being the send address)
+    -the winner of the game recieves a payout of the entire pool; optionally there are rankings and winners are
+     paid in order
+    -application will (optionally) keep a cut of the pool to cover tx fees and generate revenue
+    -the option for specialisation and scalable solutions over repeated use involving UTXO selection:
+        tx fee = no. transactions * cost of transaction
+        no. transactions = no. of winners / people drawing
+        cost of transaction = no. of seperate utxos * fee
+    -mathematically proven to payout fairly (based on game/success data being correctly reported by the parent app)
+     with open-source code so that participants can verify the authenticity
+    -applications in the gaming/esports industry:
+    -can be based on players playing a game or viewers betting on a game - in which case the pool has the potential
+     to have many winners, creating further complexity within fee management
+    -possiblity to operate via smart contract (ethereum, hyperledger)
+    -plugin operates on a webserver and is accessed via RESTful API calls from the parent application/game
+        additional possiblity for scalability if a central pool is managed for many different pools.
+        if different "ante" amounts are used across games, UTXO selection becomes much more fluid
+        maintaining a profit despite tx fees and edge cases (ties and many players winning)
+
+Shadow Ledger:
+    -write to an immutable stream of events
+    -view and inspect events
+    -multiple applications but low complexity? depends on implementation.....
