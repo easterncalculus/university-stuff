@@ -1,6 +1,6 @@
 Thoughts on a unique FYP Research and Development task:
 
--involve blockchain
+-involve blockchain; but moreso in the sense of leveraging the blockchain via applications than mining
 -would prefer to use Node.JS
 -in addition, would like to build app via restful APIs - a 'stateless' webapp
     ie, send HTTP requests
@@ -8,7 +8,7 @@ Thoughts on a unique FYP Research and Development task:
 -bonus if I can incorporate integration with
     public blockchain libraries (blockcypher)
     private blockchain libraries (multichain, hyperledger)
-
+    multisig transactions, shamir secret sharing
 
 
 
@@ -40,19 +40,34 @@ Shadow Ledger:
     -view and inspect events
     -multiple applications but low complexity? depends on implementation.....
 
+DRM Management system
+    -using a serial number or other asset-like token to represent individual content items, we can utilise
+     private key cryptography to securely provide access to the party involved in the ownership of said licence
+     (an example would be an application - it requires a signature from the same address that contains the
+     licence asset. If the asset is later transferred to another address then a signature from the new address is 
+     required)
+    -no double-accessing of DRM keys
+    -proof of ownership, non-repudiation on behalf of the issuer (benefitting the consumer)
+    -key is securely owned, cannot be easily reacquired, (benefitting the issuer)
+    -if an address' private key is made known (to share a DRM licence to multiple parties) then it can also be 
+     easily stolen by one of those parties via asset transfer - in which case it is restricted again to a single
+     owner
 
 
 
 Existing research projects I am interested in:
 
 1 - A BitCoin Attack For Profit - Hans Vandierendonck
-    improving hashing algorithms(?) 
+    improving hashing algorithms(?)
     attempt to mine a block 'quickly' ie faster than other miners
     at first glance seems impossible? given my current understanding of the protocol
     possible techniques include submitting specialised transactions (in varying numbers?)
         not sure what effect this could possibly have on the mining meta
         however, the reward for mining a block vastly outweighs many transaction fees, so this solution
         if possible, would be feasible
+    My thoughts are that if this is sort of attack were really possible, someone would be utilising it right
+     now to mine all of the transactions - but a technique that gives a marginal advantage over 
+     other mining peers in a relaxed mining economy seems more possible.
     
 2 - De-Anonymising Bitcoin: Identifying Users of Cryptocurrencies - Hans Vandierendonck
     claim that multiple addresses within a single wallet can be linked
@@ -61,6 +76,8 @@ Existing research projects I am interested in:
     project is focused on breaking this annoymity in a probabilistic manner using algorithms
     >This project involves the implementation of a graph analytics algorithm and requires 
      familiarity with probability theory, cryptocurrencies and algorithms.
+        -as a side point, I would be interested in building a bitcoin 'mixer' app, as part of
+         research towards solving this issue of limited anonymity.
 
 3 - Meta Learning for Deep Reinforcement Learning - Vien Ngo
     Training a neural network to be good at learning. Very interesting project, but
