@@ -60,7 +60,8 @@ Existing research projects I am interested in:
 1 - A BitCoin Attack For Profit - Hans Vandierendonck
     improving hashing algorithms(?)
     attempt to mine a block 'quickly' ie faster than other miners
-    at first glance seems impossible? given my current understanding of the protocol
+    specialise the hashing function for a particular group of transactions
+    at first glance seems impossible? given my current understanding of the protocol?
     possible techniques include submitting specialised transactions (in varying numbers?)
         not sure what effect this could possibly have on the mining meta
         however, the reward for mining a block vastly outweighs many transaction fees, so this solution
@@ -86,3 +87,7 @@ Existing research projects I am interested in:
 4 - Keyword/phrase speech recognition without requiring noise training - Ji Ming
 
 5 - - 
+
+
+
+Dr Sandra Scott-Hayward | blockchain @ qub
