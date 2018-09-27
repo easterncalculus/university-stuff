@@ -1,8 +1,10 @@
 Thoughts on a unique FYP Research and Development task:
 
 -involve blockchain
--restful APIs
--preferably in Node
+-would prefer to use Node.JS
+-in addition, would like to build app via restful APIs - a 'stateless' webapp
+    ie, send HTTP requests
+    recieve responses indicating success/failure/etc
 -bonus if I can incorporate integration with
     public blockchain libraries (blockcypher)
     private blockchain libraries (multichain, hyperledger)
@@ -37,3 +39,33 @@ Shadow Ledger:
     -write to an immutable stream of events
     -view and inspect events
     -multiple applications but low complexity? depends on implementation.....
+
+
+
+
+Existing research projects I am interested in:
+
+1 - A BitCoin Attack For Profit - Hans Vandierendonck
+    improving hashing algorithms(?) 
+    attempt to mine a block 'quickly' ie faster than other miners
+    at first glance seems impossible? given my current understanding of the protocol
+    possible techniques include submitting specialised transactions (in varying numbers?)
+        not sure what effect this could possibly have on the mining meta
+        however, the reward for mining a block vastly outweighs many transaction fees, so this solution
+        if possible, would be feasible
+    
+2 - De-Anonymising Bitcoin: Identifying Users of Cryptocurrencies - Hans Vandierendonck
+    claim that multiple addresses within a single wallet can be linked
+        possible through use of an obvious change address?
+    mixer exists that can help obsfucate this link
+    project is focused on breaking this annoymity in a probabilistic manner using algorithms
+    >This project involves the implementation of a graph analytics algorithm and requires 
+     familiarity with probability theory, cryptocurrencies and algorithms.
+
+3 - Meta Learning for Deep Reinforcement Learning - Vien Ngo
+    Training a neural network to be good at learning. Very interesting project, but
+     not related to any fields I have experiece with
+
+4 - Keyword/phrase speech recognition without requiring noise training - Ji Ming
+
+5 - - 
