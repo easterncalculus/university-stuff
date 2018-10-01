@@ -58,17 +58,26 @@ for(x = 0; x < ORDER; x++)
 double matmul (const int M, double **a, double **b, double **c)
 {
 	struct timespec start, finish;
-	double mflops, mflop_s, secs;
+	double mflops=0, mflop_s, secs;
+  int	i, j;
 	
-	/*...Code needs to be added...*/
-	
+	{
 		get_time (&start);
 		
-        /*...Code needs to be added...*/
+        for (i=0; i<M; i++){
+          for (j=0; j<M; j++){
+            double result = 0;
+            for (int x=0; x<M; x++){
+              result = result + (a[i][x] * b[x][j]);
+              mflops++;
+            }
+            c[i][j] = result;
+          }
+        }
 		
 		get_time (&finish); 
 		secs = timespec_diff (start, finish);
-		
+		mflops = mflops/1000000;
 		mflop_s = mflops / secs;
 	}
 	return mflop_s;
