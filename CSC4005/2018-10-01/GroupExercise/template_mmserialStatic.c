@@ -40,25 +40,25 @@ double mflop_s;
 double matmul (const int M, double a[][ORDER], double b[][ORDER], double c[][ORDER])
 {
 	struct timespec start, finish;
-	double mflops=0, mflop_s, secs;
+	double flops, mflops, mflop_s, secs, result;
   int	i, j;
-	
-	get_time (&start);
-	
-			for (i=0; i<M; i++){
-				for (j=0; j<M; j++){
-					double result = 0;
-					for (int x=0; x<M; x++){
-						result = result + (a[i][x] * b[x][j]);
-						mflops++;
-					}
-					c[i][j] = result;
-				}
-			}
-	
-	get_time (&finish); 
-	secs = timespec_diff (start, finish);
-	mflops = mflops/1000000;
-	mflop_s = mflops / secs;
+  get_time (&start);
+  
+  for (i=0; i<M; i++){
+    for (j=0; j<M; j++){
+      result = 0;
+      for (int x=0; x<M; x++){
+        result = result + (a[i][x] * b[x][j]);
+        //two floating point operations
+      }
+      c[i][j] = result;
+    }
+  }
+  
+  get_time (&finish); 
+  secs = timespec_diff (start, finish);
+  flops = ((2*M*M*M));
+  mflops = flops / 1000000;
+  mflop_s = mflops / secs;
 	return mflop_s;
 }

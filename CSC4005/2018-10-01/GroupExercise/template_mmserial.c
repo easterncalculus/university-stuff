@@ -58,7 +58,7 @@ for(x = 0; x < ORDER; x++)
 double matmul (const int M, double **a, double **b, double **c)
 {
 	struct timespec start, finish;
-	double mflops, mflop_s, secs, result;
+	double flops, mflops, mflop_s, secs, result;
   int	i, j;
   get_time (&start);
   
@@ -75,7 +75,8 @@ double matmul (const int M, double **a, double **b, double **c)
   
   get_time (&finish); 
   secs = timespec_diff (start, finish);
-  mflops = ((2*M)*(2*M)*(2*M))/1000000;
+  flops = ((2*M*M*M));
+  mflops = flops / 1000000;
   mflop_s = mflops / secs;
 	return mflop_s;
 }
