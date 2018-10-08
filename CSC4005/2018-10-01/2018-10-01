@@ -1,0 +1,28 @@
+
+compile C files:
+    gcc -Wall -o outputname template_mmserial.c timing.c
+    gcc -o outputfile inputfile.c
+    gcc -std=gnu99 -Wall -o mmserial template_mmserial.c timing.c -lrt
+    ^ on kelvin: -std=gnu99 is required for time functions
+
+ssh to kelvin:
+    ssh 40129478@kelvin.qub.ac.uk
+
+copy files to kelvin:
+    scp myfirstscript.sh 40129478@kelvin.qub.ac.uk:KelvinDemo/myfirstscript.sh
+    scp helloworld.c 40129478@kelvin.qub.ac.uk:KelvinDemo/helloworld.c
+
+on kelvin
+connect to private node(?): 
+    qrsh (not recommended)
+
+run a job via qsub: 
+    chmod777 script.sh
+    qsub script.sh
+
+check on a job: 
+    qstat
+
+see a job output: 
+    cat script.sh.oNNNNNN
+    NNNNNN = job number

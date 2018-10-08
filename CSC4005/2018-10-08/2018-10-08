@@ -1,0 +1,11 @@
+Graph tips:
+-label axis
+-x-axis is independent axis (unchainging)
+-include units
+-include legend
+-combine multiple graphs for the purpose of comparison
+-might want to use a logarithmic graph for data that is spaced out at logarithmic distances
+
+sample worst case scenario
+find: aaaaaaaaab
+text: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab (b needed?)
