@@ -9,3 +9,24 @@ Graph tips:
 sample worst case scenario
 find: aaaaaaaaab
 text: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab (b needed?)
+
+OMP Pragma and Clauses
+https://software.intel.com/en-us/node/522685
+
+OMP Parallel
+    block should be executed by multiple threads
+OMP Master
+    executed by thread #0
+OMP Single 
+    executed by a single thread
+OMP Critical
+    executed without any other simultaneous thread execution
+    (waits/blocks) - 1 thread at a time
+OMP Sections (with Section)
+    executed between multiple threads
+OMP Section (within Sections)
+    executed by a single thread
+
+
+
+Program6
